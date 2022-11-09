@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: projects.registry.vmware.com/pez/nginx:1.14.2
+        image: projects.registry.vmware.com/pez/nginx
         ports:
         - containerPort: 80
